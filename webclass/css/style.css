@@ -1,0 +1,315 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #edebf0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#particles-js{
+
+    width: 100%;
+    
+   
+  
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+.head{
+    background: #04151f;
+   display: flex;
+    align-items: center;
+    padding: 8px 15%;
+    width: 100%;
+
+    margin: auto;
+    justify-content: space-between;
+  
+}
+.raya{
+
+    border-bottom: 1px solid #04151f;
+}
+
+.head i{
+    color: #2e2e2e;
+    font-size: 15x;
+    cursor: pointer;
+}
+
+.publicar{
+    text-decoration: none;
+    color: #000;
+    background: #6df1eb;
+    padding: 8px 18px;
+    border-radius:35px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    
+    
+}
+
+.publicar:hover{
+    background: #32e4db;
+
+    
+    
+    transition: all ease 1s;
+}
+
+
+
+.head h1 {
+    color: #fff;
+    font-weight: 700;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 30px;
+}
+
+.contenedor-bus{
+    padding: 8px 12px;
+    padding-left: 30px;
+  background: #fff;
+  border-radius: 35px;
+    display: grid;
+    position: relative;
+    height: 100%;
+    width: 55%;
+    grid-template-columns: 85% 15% ;
+   
+    
+}
+
+
+
+.head .contenedor-bus input[type=search]{
+   
+    border-radius: 20px;
+ outline: none;
+  border: none;
+  background: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.contenedor-bus .search{
+   cursor: pointer;
+    border: none;
+    background: none;
+    border-left: solid 1px #04151f;
+    font-family: 'Quicksand', sans-serif;
+    color: #04151f;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.contenedor-bus .search:hover{
+    color: #005fcc;
+}
+
+
+.head div i{
+    color: #2e2e2e;
+    position: relative;
+    top: 2%;
+}
+
+
+/* aqui va el subtitulo */
+
+.subtitulo{
+
+  padding: 35px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    background: #fff;
+}
+
+
+
+
+
+
+section{
+
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 15px;
+    justify-content: space-between;
+    
+    width: 70%;
+    margin: 3% auto;
+}
+
+section .referencia h1{
+    background: #04151f;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 7px 7px 0px 0px;
+    width: 100%;
+
+}
+
+section ul {
+    padding: 10px;
+    
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+   
+
+}
+section ul li{
+    list-style: none;
+    margin: 15px 0px;
+    
+}
+
+section ul li a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    font-size: 17px;
+    display: flex;
+    font-weight: 400;
+    justify-content: space-between;
+    text-transform: capitalize;
+    
+}
+
+section ul li a:hover{
+
+    color: #0088CC;
+
+}
+
+
+section ul li a i{
+    color: #005fcc;
+}
+
+
+
+
+
+/* tema */
+
+.tema{
+    background-image: linear-gradient(rgba(6, 19, 75, 0.40),rgba(6, 19, 75, 0.40)), url('../img/clas.jpg');
+   background-position: center;
+   background-clip: border-box;
+    background-size: 100%;
+    color: #fff;
+    width: 100%;
+    height: 320px;
+ 
+    padding: 15px;
+    text-align: center;
+   
+    
+    
+}
+
+.tema p{
+    font-size: 30px;
+    margin: auto;
+   
+}
+
+
+.tema .contenedor-pensamos{
+
+    position: relative;
+    width: 50%;
+    margin: auto;
+    
+}
+
+
+
+.tema .contenedor-pensamos p{
+    font-size: 20px;
+}
+
+.tema .contenedor-pensamos h1{
+    font-size: 35px;
+}
+
+
+
+.aliento{
+    
+    background: linear-gradient(60deg, #000,#A020F0);
+    padding: 6px;
+    text-align: center;
+   
+    color: #fff;
+}
+
+
+/* aqui va la visualisazion de las practicas */
+
+section .visual-practica{
+    
+    padding: 20px;
+   
+}
+
+.contenedor-descr p{
+
+    margin: 5px 0px;
+    color: #200741;
+}
+
+.contenedor-descr .titulo{
+    font-size: 25px;
+}
+
+section .visual-practica .contenedor-pdf{
+    display: grid;
+    grid-template-columns: 100%;
+    
+    width: 100%;
+    height: 100%;
+  gap: 10px;
+  margin-top: 10px;
+
+
+}
+section .visual-practica .pdf{
+background: rgb(27, 26, 26);
+height: 300px;
+width: 100%;
+
+
+}
+
+section .visual-practica .resultados{
+    display: flex;
+    justify-content: space-between;
+font-weight: 500;
+    font-size: 23px;
+    
+    color: rgb(6, 25, 26);
+}
+
+section .visual-practica .resultados i{
+    color: #000;
+    font-size: 25px;
+}

@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.formulario{
+  
+    width: 40%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.formulario input[type='text']{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 30px;
+    border: none;
+    border: 1px solid #535353;
+}
+
+.formulario .categoria, .file{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+
+
+.formulario input[type='submit']{
+    width: 50%;
+    padding: 15px;
+    font-size: 15px;
+    margin: 10px auto;
+    background: #A020F0;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+}
+
+.formulario input[type='submit']:hover{
+    background: #0088CC;
+    transition: all ease 1s;
+}
+
+
+label{
+    font-weight: 800;
+}
+
+/* aqui va el mensaje del error */
+
+.error{
+    color: red;
+    font-weight: 600;
+    text-align: center;
+}
